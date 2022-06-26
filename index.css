@@ -1,0 +1,103 @@
+body {
+    font-family: poppins, sans-serif;  
+    margin: 0px;
+  }
+  
+  nav {
+    background-color: #373737;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 1.3em;
+  }
+  
+  nav a:hover {
+    color: #E0BA00;
+  }
+  
+  section {
+    min-height: 100vh;
+  }
+  
+  section#banner {
+    background-image: url('pictures/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #E0BA00;
+    min-height: 60vh;
+  }
+  
+  section#background {
+    background-color: #FFDBDD;
+    color: #FF9493;
+  }
+  
+  section#purpose-of-study {
+    background-color: #FFDBAF;
+    color: #FFAB80;
+  }
+  
+  section#study-result {
+    background-color: #FFEDA6;
+    color: #E0BF4D;
+  }
+  
+  section#conclusion {
+    background-color: #DBFFDD;
+    color: #00B690;
+  }
+  
+  section#suggestions {
+    background-color: #B7FFFF;
+    color: #64BBFF;
+  }
+  
+  section#references {
+    background-color: #D1CAFF;
+    color: #B37CFF;
+  }
+  
+  article {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  @media
+  (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 11px;
+    }
+  }
